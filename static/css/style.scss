@@ -1,0 +1,39 @@
+@import "../bower_components/bourbon/app/assets/stylesheets/bourbon";
+@import "../bower_components/normalize-scss/normalize";
+
+#container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  // background-image: url('../images/smoot1.png');
+  // // background-size: 10%;
+  // background-position: 0% 0%;
+  // background-repeat: no-repeat;
+  background:
+    url('../images/face1.png') no-repeat,
+    url('../images/face2.png') no-repeat,
+    url('../images/bg.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  &.open {
+    background:
+      url('../images/face2.png') no-repeat,
+      url('../images/face1.png') no-repeat,
+      url('../images/bg.jpg') no-repeat;
+      background-size: cover;
+      background-position: center;
+  }
+
+
+
+
+
+  h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    @include transform(translate3d(-50%, -50%, 0));
+  }
+}
