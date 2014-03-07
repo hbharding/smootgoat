@@ -40,7 +40,7 @@ $(document).ready(function() {
   // var baaah = new buzz.sound( "/sfx/baaah", {
   //   formats: [ "mp3" ]
   // });
-  var baaah = new buzz.sound('/sfx/baaah.mp3');
+  var baaah = new buzz.sound('../sfx/baaah.mp3');
   baaah.play();
   console.log(baaah);
 
