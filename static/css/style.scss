@@ -12,7 +12,6 @@
   // background-repeat: no-repeat;
   background:
     url('../images/face1.png') no-repeat,
-    url('../images/face2.png') no-repeat,
     url('../images/bg.jpg') no-repeat;
   background-size: cover;
   background-position: center;
@@ -20,7 +19,6 @@
   &.open {
     background:
       url('../images/face2.png') no-repeat,
-      url('../images/face1.png') no-repeat,
       url('../images/bg.jpg') no-repeat;
       background-size: cover;
       background-position: center;

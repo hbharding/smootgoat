@@ -373,11 +373,11 @@ th {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: url("../images/face1.png") no-repeat, url("../images/face2.png") no-repeat, url("../images/bg.jpg") no-repeat;
+  background: url("../images/face1.png") no-repeat, url("../images/bg.jpg") no-repeat;
   background-size: cover;
   background-position: center; }
   #container.open {
-    background: url("../images/face2.png") no-repeat, url("../images/face1.png") no-repeat, url("../images/bg.jpg") no-repeat;
+    background: url("../images/face2.png") no-repeat, url("../images/bg.jpg") no-repeat;
     background-size: cover;
     background-position: center; }
   #container h1 {
@@ -391,7 +391,7 @@ th {
     transform: translate3d(-50%, -50%, 0); }
 
 .built-by {
-  font-family: 'Helvetica Neue', 'Helvetica', 'Arial' sans-serif;
+  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
   font-weight: 100;
   font-size: 22px;
   color: #fff;
